@@ -1,5 +1,5 @@
 %define	version 1.1.0.20090205
-%define	release %mkrel 1
+%define	release %mkrel 2
 
 Name:      ibus-hangul
 Summary:   ibus - Korean Hangul engine
@@ -35,6 +35,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files -f %name.lang
 %defattr(-,root,root)
-%{_libexecdir}/*
+%{_libexecdir}/ibus-engine-*
 %{_datadir}/%{name}
 %{_datadir}/ibus/component/*.xml
