@@ -1,4 +1,4 @@
-%define	version 1.1.0.20090211
+%define	version 1.1.0.20090328
 %define	release %mkrel 2
 
 Name:      ibus-hangul
@@ -35,6 +35,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files -f %name.lang
 %defattr(-,root,root)
-%{_libexecdir}/ibus-engine-*
+%{_libexecdir}/ibus-*
 %{_datadir}/%{name}
 %{_datadir}/ibus/component/*.xml
