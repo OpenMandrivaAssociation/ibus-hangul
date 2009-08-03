@@ -1,5 +1,5 @@
-%define	version 1.1.0.20090328
-%define	release %mkrel 2
+%define	version 1.2.0.20090617
+%define	release %mkrel 1
 
 Name:      ibus-hangul
 Summary:   ibus - Korean Hangul engine
@@ -11,8 +11,8 @@ URL:       http://code.google.com/p/ibus/
 Source0:   http://ibus.googlecode.com/files/%{name}-%{version}.tar.gz
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: libhangul-devel
-BuildRequires: ibus-devel >= 1.1.0.20090211
-Requires:	ibus >= 1.1.0.20090211
+BuildRequires: ibus-devel >= 1.2.0
+Requires:	ibus >= 1.2.0
 
 %description
 ibus - Korean Hangul engine.
