@@ -10,7 +10,7 @@ License:   GPLv2+
 URL:       http://code.google.com/p/ibus/
 Source0:   http://ibus.googlecode.com/files/%{name}-%{version}.tar.gz
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
-BuildRequires: libhangul-devel
+BuildRequires: libhangul-devel >= 0.0.10
 BuildRequires: ibus-devel >= 1.2.0
 Requires:	ibus >= 1.2.0
 
