@@ -1,4 +1,4 @@
-%define	version 1.2.0.20091031
+%define	version 1.2.0.20100102
 %define	release %mkrel 1
 
 Name:      ibus-hangul
