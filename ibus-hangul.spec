@@ -1,5 +1,5 @@
 %define	version 1.3.1
-%define	release %mkrel 2
+%define	release %mkrel 3
 
 Name:      ibus-hangul
 Summary:   ibus - Korean Hangul engine
