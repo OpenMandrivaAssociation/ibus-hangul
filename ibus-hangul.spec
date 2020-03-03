@@ -1,11 +1,11 @@
 Summary:	ibus - Korean Hangul engine
 Name:		ibus-hangul
-Version:	1.4.2
-Release:	2
+Version:	1.5.3
+Release:	1
 Group:		System/Internationalization
 License:	GPLv2+
-Url:		http://code.google.com/p/ibus/
-Source0:	http://ibus.googlecode.com/files/%{name}-%{version}.tar.gz
+URL:           https://github.com/choehwanjin/ibus-hangul
+Source0:       https://github.com/choehwanjin/ibus-hangul/releases/download/%{version}/%{name}-%{version}.tar.gz
 BuildRequires:	intltool
 BuildRequires:	pkgconfig(ibus-1.0)
 BuildRequires:	pkgconfig(libhangul) >= 0.1.0
@@ -30,11 +30,11 @@ ibus - Korean Hangul engine.
 %setup -q
 
 %build
-%configure2_5x
-%make
+%configure
+%make_build
 
 %install
-%makeinstall_std
+%make_install
 
 %find_lang %{name}
 
