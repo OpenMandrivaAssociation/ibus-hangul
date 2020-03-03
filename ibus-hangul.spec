@@ -23,6 +23,8 @@ ibus - Korean Hangul engine.
 %{_iconsdir}/*/*/*
 %{_datadir}/ibus/component/*.xml
 %{_datadir}/applications/*.desktop
+%{_datadir}/glib-2.0/schemas/org.freedesktop.ibus.engine.hangul.gschema.xml
+%{_datadir}/metainfo/org.freedesktop.ibus.engine.hangul.metainfo.xml
 
 #----------------------------------------------------------------------------
 
