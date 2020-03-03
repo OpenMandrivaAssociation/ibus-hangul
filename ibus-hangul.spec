@@ -16,7 +16,7 @@ ibus - Korean Hangul engine.
 
 %files -f %{name}.lang
 %{_bindir}/*
-%{_libdir}/%{name}
+#{_libdir}/%{name}
 %{_libexecdir}/ibus-engine-hangul
 %{_libexecdir}/ibus-setup-hangul
 %{_datadir}/%{name}
