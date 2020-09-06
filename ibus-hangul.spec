@@ -1,6 +1,6 @@
 Summary:	ibus - Korean Hangul engine
 Name:		ibus-hangul
-Version:	1.5.3
+Version:	1.5.4
 Release:	1
 Group:		System/Internationalization
 License:	GPLv2+
