@@ -9,6 +9,7 @@ Source0:       https://github.com/choehwanjin/ibus-hangul/releases/download/%{ve
 BuildRequires:	intltool
 BuildRequires:	pkgconfig(ibus-1.0)
 BuildRequires:	pkgconfig(libhangul) >= 0.1.0
+BuildRequires:	pkgconfig(gtk+-3.0)
 Requires:	ibus
 
 %description
