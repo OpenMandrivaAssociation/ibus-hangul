@@ -6,6 +6,11 @@ Group:		System/Internationalization
 License:	GPLv2+
 URL:           https://github.com/choehwanjin/ibus-hangul
 Source0:       https://github.com/choehwanjin/ibus-hangul/releases/download/%{version}/%{name}-%{version}.tar.gz
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	intltool
 BuildRequires:	pkgconfig(ibus-1.0)
 BuildRequires:	pkgconfig(libhangul) >= 0.1.0
